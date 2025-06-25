@@ -1,0 +1,1 @@
+Un parcours simple avec deux boucles imbriquées permet de tester toutes les paires.
