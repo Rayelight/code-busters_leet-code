@@ -1,14 +1,5 @@
-def merge(intervals):
-    if not intervals:
-        return []
+from collections import Counter
 
-    intervals.sort(key=lambda x: x[0])
-    merged = [intervals[0]]
-
-    for current in intervals[1:]:
-        last = merged[-1]
-        if current[0] <= last[1]:
-            last[1] = max(last[1], current[1])
-        else:
-            merged.append(current)
-    return merged
+def top_k_frequent(nums, k):
+    count = Counter(nums)
+    return [item for item, _ in sorted(count.items(), key=lambda x: -x[1])[:k]]
