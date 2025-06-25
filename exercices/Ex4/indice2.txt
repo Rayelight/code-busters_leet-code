@@ -1,0 +1,1 @@
+Tu peux utiliser un min-heap ou trier les fréquences pour en extraire les plus fréquents.
