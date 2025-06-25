@@ -1,0 +1,1 @@
+Une table de hachage (dictionnaire) permet de résoudre ce problème en une seule passe.
