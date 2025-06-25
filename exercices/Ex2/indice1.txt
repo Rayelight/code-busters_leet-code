@@ -1,0 +1,1 @@
+Utilise deux pointeurs pour maintenir une "fenêtre" sans doublon.
